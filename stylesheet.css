@@ -1,2 +1,8 @@
 /* here's all the css design stuff if we wanna add any into an external file since upon reading about external files, it seems this is 
 more convenient*/
+h1 {
+  text-align: center;
+} 
+body {
+  background-color: powderblue;
+}
