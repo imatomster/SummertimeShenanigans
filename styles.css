@@ -1,7 +1,17 @@
+header{
+  text-align: center;
+  color:black;
+  font-family: Helvetica;
+}
 h1 {
   text-align: center;
-  colr: navy;
+  color: navy;
 } 
 body {
   background-color: powderblue;
+}
+footer {
+  text-align: left;
+  color: black;
+  font-family: Georgia;
 }
