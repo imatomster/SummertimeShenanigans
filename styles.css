@@ -7,8 +7,8 @@ header{
  	font-size: 45px;
 }
 h1 {
-  	text-align: center;
-  	color: navy;
+	text-align: center;
+  	color: black;
 } 
 body {
   	background-image: url('pictures/beach.jpg');
@@ -22,26 +22,29 @@ footer {
   	font-family: "Times New Roman"
 }
 
-/*ul{
-	list-style-type: none;
-	overflow: hidden;
-	background-color: black;
-	margin: 0;	
-  	padding: 0;
+/* Classes */
+.interactiveColumn {
+	display: flex;
+	flex-direction: column;
 }
 
-li{
-	display: inline-block;
-	color: white;
-}*/
+.interactiveColumn ul{
+	list-style-type: none;
+	margin: 0;
+  	padding: 50;
+}
 
-/* Classes */
-.buttonShape {
-	border-radius: 25px;
-  	background: #73AD21;
-  	padding: 20px; 
+.interactiveColumn li{
+	background: url('pictures/ball.png');
+	background-size: cover;
+  	background-repeat: no-repeat;
+
+	border-radius: 50%;
+	height: 200px;
   	width: 200px;
-  	height: 150px;  
+  	padding: 5px;
+  	line-height: 150px;
+  	margin: 10px;
 }
 
 /* IDs */
@@ -57,6 +60,6 @@ li{
 
 }
 
-#collab {
+#projects {
 
 }
