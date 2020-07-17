@@ -1,18 +1,62 @@
+/* CSS of Summertime Shenanigans */
+/* Styles */
 header{
-  text-align: center;
-  color:black;
-  font-family: Helvetica;
-  font-size: 45px;
+  	text-align: center;
+  	color:black;
+  	font-family: "Times New Roman"
+ 	font-size: 45px;
 }
 h1 {
-  text-align: center;
-  color: navy;
+  	text-align: center;
+  	color: navy;
 } 
 body {
-  background-color: powderblue;
+  	background-image: url('pictures/beach.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
 }
 footer {
-  text-align: left;
-  color: black;
-  font-family: Georgia;
+  	text-align: left;
+ 	color: black;
+  	font-family: "Times New Roman"
+}
+
+/*ul{
+	list-style-type: none;
+	overflow: hidden;
+	background-color: black;
+	margin: 0;	
+  	padding: 0;
+}
+
+li{
+	display: inline-block;
+	color: white;
+}*/
+
+/* Classes */
+.buttonShape {
+	border-radius: 25px;
+  	background: #73AD21;
+  	padding: 20px; 
+  	width: 200px;
+  	height: 150px;  
+}
+
+/* IDs */
+#home {
+
+}
+
+#tommy {
+
+}
+
+#michael {
+
+}
+
+#collab {
+
 }

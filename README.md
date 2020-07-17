@@ -1,5 +1,2 @@
 # Summertime-Shenanigans
-YOYOOYOYOY
-THIS IS MADE BY MIKE AND TOM
-
-XDXDDXDXXXXDX
+This is a summer project made by "imatomster" and "Wasabi-jpg".
