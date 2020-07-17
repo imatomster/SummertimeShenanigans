@@ -46,6 +46,10 @@ footer {
   	line-height: 150px;
   	margin: 10px;
 }
+.homepageInfo{
+	display: inline;
+	background-color: 255, 255, 255, 0.4;
+}
 
 /* IDs */
 #home {
