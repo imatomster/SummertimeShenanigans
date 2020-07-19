@@ -15,7 +15,7 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
-  	margin: 0;
+  	margin: 0px;
 }
 footer {
   	text-align: left;
@@ -25,16 +25,21 @@ footer {
 
 /* Classes */
 .interactiveColumn ul{
+	position: absolute;
 	list-style-type: none;
-	position: fixed;
-	width: 15%;
+	width: 13%;
 	height: 100%;
-	margin: 0;
-  	padding: 50;
+	margin: 0px;
+  	padding-left: 10px;
+
+  	background-color: gray;
+  	border-right-style: dotted;
+	border-right-width: 7px;
+	border-right-color: black;
 }
 
 .interactiveColumn li{
-	filter: grayscale(100%);
+	filter: brightness(70%);
 	background: url('pictures/ball.png');
 	background-size: cover;
  	background-repeat: no-repeat;
@@ -47,12 +52,12 @@ footer {
   	margin: 10px;
 }
 
-.interactiveColumn li:hover{
-	filter: grayscale(0%);
+.interactiveColumn li:hover:not(.current){
+	filter: brightness(90%);
 }
 
 .interactiveColumn .current{
-	filter: grayscale(0%);
+	filter: brightness(100%);
 }
 
 .interactiveColumn a{
@@ -64,11 +69,6 @@ footer {
 	text-align: center;
 }
 
-.verticalHR {
-	height: 100%;
-	border-left: 6px solid green;
-	left: 50%;
-}
 .homepageInfo{
 	display: inline;
 	background-color: 255, 255, 255, 0.4;
