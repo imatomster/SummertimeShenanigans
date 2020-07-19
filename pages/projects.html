@@ -5,7 +5,7 @@
 
 <!-- ETC / Setup Code inside the head -->
 <head>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" type="text/css" href="../styles.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Summmertime Shenanigans</title>
 	<style>
@@ -15,18 +15,11 @@
 
 <!-- Core content of the html -->
 <body>
-	<!-- Title: "Summertime Shenanigans" -->
-	<br>
-	<header>
-		<center><img src="pictures/title.png" alt="title"></center>
-	</header>
-	</br>
-	<hr>
 	<!-- Interactive Hotbar -->
-	<div class ="interactiveColumn">
+	<div class="interactiveColumn">
 		<ul>
 
-	  		<li><a href="index.html">
+	  		<li><a href="../index.html">
 	  			<h1 style="font-size: 50px; line-height: 125px;"> Home </h1>
 	  		</a></li>
 
@@ -38,12 +31,28 @@
 	  			<h1> "Wasabi-jpg" </h1>
 	  		</a></li>
 
-	  		<li><a href="projects.html">
+	  		<li class="interactiveColumn current"><a href="projects.html">
 	  			<h1 style="font-size: 50px; line-height: 125px;"> Projects </h1>
 	  		</a></li>
 
 		</ul>
 	</div>
-</body>
 
+	<!-- Vertical Line -->
+	<div class="verticalHR"></div>
+
+	<!-- Content -->
+	<div style="margin-left:15%">
+		<header>
+			<center><img src="../pictures/title.png" alt="title"></center>
+		</header>
+
+		<hr>
+
+		<h3 id="homePage">Collaborative Projects</h3>
+		<p id="content">NO PROJECTS YET</p>
+
+	</div>
+
+</body>
 </html>

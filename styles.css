@@ -15,6 +15,7 @@ body {
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
+  	margin: 0;
 }
 footer {
   	text-align: left;
@@ -23,20 +24,17 @@ footer {
 }
 
 /* Classes */
-.interactiveColumn {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	display: inline;
-}
-
 .interactiveColumn ul{
 	list-style-type: none;
+	position: fixed;
+	width: 15%;
+	height: 100%;
 	margin: 0;
   	padding: 50;
 }
 
 .interactiveColumn li{
+	filter: grayscale(100%);
 	background: url('pictures/ball.png');
 	background-size: cover;
  	background-repeat: no-repeat;
@@ -49,6 +47,28 @@ footer {
   	margin: 10px;
 }
 
+.interactiveColumn li:hover{
+	filter: grayscale(0%);
+}
+
+.interactiveColumn .current{
+	filter: grayscale(0%);
+}
+
+.interactiveColumn a{
+	text-decoration: none;
+}
+
+.interactiveColumn h1{
+	color:black;
+	text-align: center;
+}
+
+.verticalHR {
+	height: 100%;
+	border-left: 6px solid green;
+	left: 50%;
+}
 .homepageInfo{
 	display: inline;
 	background-color: 255, 255, 255, 0.4;
