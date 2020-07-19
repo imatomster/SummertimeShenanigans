@@ -1,25 +1,25 @@
 /* CSS of Summertime Shenanigans */
 /* Styles */
 header{
-  text-align: center;
-  color:black;
-  font-family: "Times New Roman"
+  	text-align: center;
+  	color:black;
+  	font-family: "Times New Roman"
  	font-size: 45px;
 }
 h1 {
 	text-align: center;
-  color: black;
+  	color: black;
 }
 body {
-  background-image: url('pictures/beach.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  	background-image: url('pictures/beach.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
 }
 footer {
-  text-align: left;
+  	text-align: left;
  	color: black;
-  font-family: "Times New Roman"
+  	font-family: "Times New Roman"
 }
 
 /* Classes */
@@ -39,35 +39,18 @@ footer {
 .interactiveColumn li{
 	background: url('pictures/ball.png');
 	background-size: cover;
-  background-repeat: no-repeat;
+ 	background-repeat: no-repeat;
 
 	border-radius: 50%;
 	height: 200px;
-  width: 200px;
-  padding: 5px;
-  line-height: 150px;
-  margin: 10px;
+  	width: 200px;
+  	padding: 5px;
+  	line-height: 150px;
+  	margin: 10px;
 }
 
 .homepageInfo{
 	display: inline;
 	background-color: 255, 255, 255, 0.4;
-  z-index:5;
-}
-
-/* IDs */
-#home {
-
-}
-
-#tommy {
-
-}
-
-#michael {
-
-}
-
-#projects {
-
+  	z-index:5;
 }
