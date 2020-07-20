@@ -1,7 +1,7 @@
-/* CSS of Summertime Shenanigans DESKTOP VERSION*/
+/* CSS of Summertime Shenanigans MOBILE VERSION*/
 /* Styles */
 html {
-	font-size: 62.5%;
+	font-size: 30%;
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
@@ -44,7 +44,7 @@ footer {
 .flexSetup {
 	display: flex;
 	flex-wrap: nowrap;
-	flex-direction: row;
+	flex-direction: column;
   	justify-content: flex-start;
   	align-items: stretch;
   	align-content: stretch;
@@ -52,17 +52,17 @@ footer {
 
 /* NAVIGATION BAR */
 .navigation {
-	height: 100vh;
+	width: 100vw;
 	flex-basis: auto;
 	flex:10%;
-  	border-right-style: solid;
-	border-right-width: .2rem;
-	border-right-color: black;
+  	border-bottom-style: solid;
+	border-bottom-width: .2rem;
+	border-bottom-color: black;
 	background-color: lightgray;
 
 	display: flex;
 	flex-wrap: nowrap;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
   	justify-content: flex-start;
 }
