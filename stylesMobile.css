@@ -1,7 +1,7 @@
 /* CSS of Summertime Shenanigans MOBILE VERSION*/
 /* Styles */
 html {
-	font-size: 30%;
+	font-size: 20%;
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
@@ -103,6 +103,6 @@ footer {
 }
 
 .titleIMG img{
-	width: 88.9rem;
-	height: 25.0rem;
+	width: 67.0rem;
+	height: 17.1rem;
 }
