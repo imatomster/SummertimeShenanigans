@@ -1,36 +1,114 @@
 /* CSS of Summertime Shenanigans */
 /* Styles */
-header{
+html {
+	font-size: 62.5%;
+}
+
+header {
   	text-align: center;
   	color:black;
   	font-family: "Times New Roman"
- 	font-size: 45px;
+ 	font-size: 4.5rem;
 }
 h1 {
 	text-align: center;
   	color: black;
 }
+
 body {
   	background-image: url('pictures/beach.jpg');
   	background-repeat: no-repeat;
   	background-attachment: fixed;
   	background-size: cover;
   	margin: 0px;
+
+  	font-size: 1.6rem;
 }
+
 footer {
   	text-align: left;
  	color: black;
   	font-family: "Times New Roman"
 }
 
+/* Optimizing for smaller screens */
+@media only screen and (max-width: 768px) {
+	.flexSetup {
+		flex-direction: column;
+	}
+
+	.navigation {
+		border-bottom-style: dotted;
+		border-bottom-width: .7rem;
+		border-bottom-color: black;
+
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+  		justify-content: center;
+	}
+}
+
 /* Classes */
-.interactiveColumn ul{
-	position: absolute;
+.flexSetup {
+	display: flex;
+	flex-wrap: nowrap;
+  	justify-content: flex-start;
+  	align-items: stretch;
+  	align-content: stretch;
+}
+
+.navigation {
+	flex-basis: auto;
+	flex:10%;
+  	border-right-style: dotted;
+	border-right-width: .7rem;
+	border-right-color: black;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+  	justify-content: center;
+}
+
+.navigation > div {
+	filter: brightness(70%);
+	background: url('pictures/ball.png');
+	background-size: cover;
+ 	background-repeat: no-repeat;
+
+	border-radius: 50%;
+	height: 15.0rem;
+  	width: 15.0rem;
+}
+
+.navigation div:hover:not(.current){
+	filter: brightness(90%);
+}
+
+.navigation .current{
+	filter: brightness(100%);
+}
+
+.navigation a{
+	text-decoration: none;
+}
+
+.content {
+	flex-basis:auto;
+	flex:90%;
+}
+
+/*.navigation ul{
+	position: fixed;
 	list-style-type: none;
 	width: 13%;
-	height: 100%;
 	margin: 0px;
-  	padding-left: 10px;
+	height: 100%;
+	padding-left: 10px;
+  	overflow-x: hidden;
 
   	background-color: gray;
   	border-right-style: dotted;
@@ -38,7 +116,7 @@ footer {
 	border-right-color: black;
 }
 
-.interactiveColumn li{
+.navigation li{
 	filter: brightness(70%);
 	background: url('pictures/ball.png');
 	background-size: cover;
@@ -52,19 +130,19 @@ footer {
   	margin: 10px;
 }
 
-.interactiveColumn li:hover:not(.current){
+.navigation li:hover:not(.current){
 	filter: brightness(90%);
 }
 
-.interactiveColumn .current{
+.navigation .current{
 	filter: brightness(100%);
 }
 
-.interactiveColumn a{
+.navigation a{
 	text-decoration: none;
 }
 
-.interactiveColumn h1{
+.navigation h1{
 	color:black;
 	text-align: center;
 }
@@ -73,4 +151,4 @@ footer {
 	display: inline;
 	background-color: 255, 255, 255, 0.4;
   	z-index:5;
-}
+}*/
